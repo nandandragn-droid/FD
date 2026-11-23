@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATHARVA 2026</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+header {
+    grid-area: header;
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+aside {
+    grid-area: sidebar;
+    background: lightgray;
+    padding: 20px;
+}
+main {
+    grid-area: content;
+    background: whitesmoke;
+    padding: 20px;
+}
+footer {
+    grid-area: footer;
+    background: lightblue;
+    padding: 15px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>ATHARVA 2026</h1>
+<p>Annual Technical and Management Fest</p>
+<nav>
+<a href="#about">About</a>
+<a href="#schedule">Schedule</a>
+<a href="#speakers">Speakers</a>
+</nav>
+</header>
+
+<aside>
+<h3>Event Details</h3>
+<p>Date: 12 May 2026</p>
+<p>Venue: SVRFG College Auditorium</p>
+<ul>
+<li>Paper Presentation</li>
+<li>Business Quiz</li>
+<li>Code Debugging</li>
+</ul>
+</aside>
+
+<main>
+<section id="about">
+<h2>About the Event</h2>
+<p>ATHARVA 2026 is an inter-collegiate fest.</p>
+</section>
+
+<section id="schedule">
+<h2>Event Schedule</h2>
+<table>
+<tr><th>Time</th><th>Activity</th></tr>
+<tr><td>10 AM</td><td>Inauguration</td></tr>
+<tr><td>11 AM</td><td>Paper Presentation</td></tr>
+<tr><td>12 PM</td><td>Business Quiz</td></tr>
+<tr><td>2 PM</td><td>Code Debugging</td></tr>
+</table>
+</section>
+
+<section id="speakers">
+<h2>Chief Guests & Speakers</h2>
+<p>Mrs. Tessy Thomas</p>
+<p>Mr. Ajit Doval</p>
+</section>
+</main>
+
+<footer>
+<p>© 2026 ATHARVA | SVRFG College</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 25px;
+}
+
+.student {
+    background: white;
+    width: 280px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+}
+
+.student h3 {
+    color: #2563eb;
+}
+
+.student p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
